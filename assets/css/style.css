@@ -1,0 +1,43 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+ 
+
+
+table {
+  border-collapse: collapse;
+  background-color: white;
+  overflow: hidden;
+  width: 500px;
+  border-radius: 10px;
+
+}
+
+th, td {
+  font-family:'Motnserrat',sans-serif;
+  text-align: left;
+  font-size: 12px;
+  padding: 10px;
+}
+
+th {
+  background-color: #7691ab;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  color: #212121
+}
+
+.container {
+  background: blanchedalmond;
+}
+
+.dropcenter {
+  text-align: center;
+}
+
+.table_cont{
+  text-align: center;
+display: block ruby;
+}

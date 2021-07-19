@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Consumer API Covid 19</title>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/dropdown.css">
+   </head>
+   <body>
+      <!-- Dropdown -->
+      <header>
+         <nav>
+            <div class="dropcenter"> 
+               <label class="dropdown">
+                   <div class="dd-button">
+                      Países
+                   </div>
+                   <input type="checkbox" class="dd-input">
+                   <ul class="dd-menu">
+                      <li onclick="brasil()">Brasil</li>
+                      <li onclick="argentina()">Argentina</li>
+                      <li class="divider"></li>
+                   </ul>
+                </label>
+             </div>
+         <!-- /.dropdown -->
+         </nav>
+      </header>
+
+      <!-- Title-->
+      <article>
+         <div class="container">
+            <h1 id="cases"></h1>
+         </div>
+      </article>
+     <!-- /.Title-->
+      <section>
+         <!--Results cases covid-->
+         <div class="table_cont">
+            <div class="dropcenter" id="table">
+                <table>
+                   <tr>
+                      <th>Meses</th>
+                      <th>Total</th>
+                   </tr>
+                   <tr>
+                      <td >Janeiro</td>
+                      <td id="janeiro"></td>
+                   </tr>
+                   <tr>
+                      <td>Fevereiro</td>
+                      <td id="fevereiro"></td>
+                   </tr>
+                   <tr>
+                      <td>Março</td>
+                      <td id="marco"></td>
+                   </tr>
+                   <tr>
+                      <td>Abril</td>
+                      <td id="abril"></td>
+                   </tr>
+                   <tr>
+                      <td>Maio</td>
+                      <td id="maio"></td>
+                   </tr>
+                   <tr>
+                      <td>Junho</td>
+                      <td id="junho"></td>
+                   </tr>
+                   <tr>
+                      <td>Julho</td>
+                      <td id="julho"></td>
+                   </tr>
+                   <tr>
+                      <td>Agosto</td>
+                      <td id="agosto"></td>
+                   </tr>
+                   <tr>
+                      <td>Outubro</td>
+                      <td id="outubro"></td>
+                   </tr>
+                   <tr>
+                      <td>Setembro</td>
+                      <td id="setembro"></td>
+                   </tr>
+                   <tr>
+                      <td>Novembro</td>
+                      <td id="novembro"></td>
+                   </tr>
+                   <tr>
+                      <td>Dezembro</td>
+                      <td id="dezembro"></td>
+                   </tr>
+                </table>
+             </div>
+          </div>
+      <!--./Results cases covid-->
+      </section>
+      
+
+     
+   </body>
+   <script src="assets/js/main.js"></script>
+</html>
+
